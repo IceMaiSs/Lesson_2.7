@@ -36,3 +36,4 @@ class FactorialTest {
                 () -> Factorial.factorialIterative(-1));
         assertEquals("Факториал отрицательного числа не определен", exception.getMessage());
     }
+}
